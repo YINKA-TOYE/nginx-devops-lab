@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nginx DevOps Lab</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            min-height: 100vh;
+            margin: 0;
+            display: grid;
+            place-items: center;
+            padding: 24px;
+            font-family: Arial, sans-serif;
+            color: #eaf2ff;
+            background: #0b1220;
+        }
+
+        main {
+            width: min(640px, 100%);
+            padding: 48px;
+            border: 1px solid #25334a;
+            border-radius: 16px;
+            background: #121d2e;
+            text-align: center;
+        }
+
+        .label {
+            color: #67d9ff;
+            font-size: 14px;
+            font-weight: bold;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+        }
+
+        h1 {
+            margin: 16px 0;
+            font-size: clamp(36px, 8vw, 64px);
+        }
+
+        p {
+            margin: 0;
+            color: #b6c3d8;
+            font-size: 18px;
+            line-height: 1.6;
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <div class="label">DevOps learning project</div>
+        <h1>Nginx is running</h1>
+        <p>
+            This website was stored in GitHub and deployed to an Ubuntu server
+            running Nginx.
+        </p>
+    </main>
+</body>
+</html>
